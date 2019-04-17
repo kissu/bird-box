@@ -6,8 +6,8 @@ workflow "Update gist with latest tweet" {
 action "update-gist" {
   uses = "matchai/bird-box@master"
   env = {
-    "TWITTER_USER" = "matchai"
-    "GIST_ID" = "6d5f84419863089a167387da62dd7081"
+    "TWITTER_USER" = "kissu_io"
+    "GIST_ID" = "19786fd509d0fa89dc9455a8899db350"
   }
   secrets = [
     "GH_TOKEN",
